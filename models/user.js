@@ -31,9 +31,7 @@ const UserSchema = new Schema({
    
 
   });
-  // module.exports=mongoose.model("notes",UserSchema);
 
 const User=mongoose.model("user",UserSchema);
 User.createIndexes();
   module.exports=User
-//   user is name of model & UserSchema is above Schema
